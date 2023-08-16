@@ -1,5 +1,5 @@
 
-function calculateMinCost(arr) {
+function calculateMinCost() {
   //your code here
   let ans=0;
   let arr1=[]; 
