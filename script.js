@@ -24,7 +24,7 @@ function calculateMinCost(){
 		  if(arr12.length>1){
 		  let sum=arr12[0]+arr12[1];
 		  ans=ans+sum;
-		  console.log(arr12);
+		  //console.log(arr12);
 		  
 		  arr12.splice(0,2);
 		  arr12.unshift(sum);
@@ -33,11 +33,11 @@ function calculateMinCost(){
 			  
 	  }
 	  else{
-		console.log("else loop "+ans);
+		//console.log("else loop "+ans);
 		  return ans;
 	  }
 	  }
-	  console.log("return loop"+ans);
+	  //console.log("return loop"+ans);
 	return ans;
 	}
 
